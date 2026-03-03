@@ -15,7 +15,7 @@ Ao participar do programa de parceria, você receberá um token exclusivo de int
 
 ---
 
-### Token's
+### Tokens
 
 O token de segurança da conta contém um número limite de utilização, mas durante nossa parceria este limite passa por algumas mudanças conforme abaixo: 
 

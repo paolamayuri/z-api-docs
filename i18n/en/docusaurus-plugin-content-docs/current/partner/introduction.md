@@ -17,7 +17,7 @@ By joining the integrator program, your company will receive an integrator token
 
 ---
 
-### Token's
+### Tokens
 
 The account security token has a usage limit, but during our partnership this limit will be subject to some changes as follows:
 
