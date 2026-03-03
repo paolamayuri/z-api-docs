@@ -7,11 +7,9 @@ title: Introduction
 
 ### Welcome
 
-Se você esta neste tópico ja quebrou algumas castanhas com a gente não é mesmo ?
-
 If you are on this topic you've already busted your chops with us, aint that right?
 
-We are very happy for you to consider being an integrator partner of ours, we really want to be a blessing in your business and we hope you prosper a lot, and of course we hope to be able to help in this endeavor. So now that you have reached 25 licenses, we already know each other well and our partnership gets even stronger. We will be here ready to help you and grow together, so count on us !
+We are very happy for you to consider being an integrator partner of ours, we really want to be a blessing in your business and we hope you prosper a lot, and of course we hope to be able to help in this endeavor. So now that you have reached 10 instances, we already know each other well and our partnership gets even stronger. We will be here ready to help you and grow together, so count on us !
 
 ### Integrator model 
 
@@ -19,25 +17,17 @@ By joining the integrator program, your company will receive an integrator token
 
 ---
 
-### Integrador token
+### Tokens
 
-The tokens contain a limited number of uses, but during our partnership this limit goes through some changes as mentioned below 
+The account security token has a usage limit, but during our partnership this limit will be subject to some changes as follows:
 
-#### First token
+#### First token (Account security token)
 
-> It allows creating 25 instances, when reaching this number the integrator must request its new token.
+> Allows you to create 25 instances.
 
-#### Second token
+#### Integrator Token (Partner Token)
 
-> Allows you to create +25 instances, with the value of the second tariff band.
-
-#### Third token
-
-> Allows you to create +50 instances, with the value of the third and last tariff band.
-
-#### Definitive token 
-
-> The Sky is the limit with this one ;)
+> Starting with the first 10 instances created with the initial token, you can request a new, definitive partner token from our support team to create more instances, up to an infinite number of instances. ;)
 
 ---
 

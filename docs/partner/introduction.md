@@ -7,7 +7,7 @@ title: Introdução
 
 Se você está neste tópico, significa que já quebrou algumas castanhas com a gente, não é mesmo? 
 
-Ficamos extremamente satisfeitos por você considerar ser um parceiro integrador nosso. Desejamos ser uma bênção para o seu negócio e esperamos que você prospere cada vez mais, e é claro que estamos aqui para ajudar nessa empreitada. Agora que você alcançou 25 licenças, já nos conhecemos bem e nossa parceria está ainda mais fortalecida. Estaremos sempre disponíveis para apoiá-lo e crescermos juntos. Pode contar com a gente!
+Ficamos extremamente satisfeitos por você considerar ser um parceiro integrador nosso. Desejamos ser uma bênção para o seu negócio e esperamos que você prospere cada vez mais, e é claro que estamos aqui para ajudar nessa empreitada. Agora que você alcançou 10 instâncias, já nos conhecemos bem e nossa parceria está ainda mais fortalecida. Estaremos sempre disponíveis para apoiá-lo e crescermos juntos. Pode contar com a gente!
 
 ### Modelo de Integrador
 
@@ -15,17 +15,17 @@ Ao participar do programa de parceria, você receberá um token exclusivo de int
 
 ---
 
-### Token integrador
+### Tokens
 
-O token contém um número limite de utilização, mas durante nossa parceria este limite passa por algumas mudanças conforme abaixo: 
+O token de segurança da conta contém um número limite de utilização, mas durante nossa parceria este limite passa por algumas mudanças conforme abaixo: 
 
-#### Primeiro token
+#### Primeiro token (Token de segurança da conta)
 
 > Permite criar 25 instâncias
 
-#### Token definitivo
+#### Token Integrador (Token de Parceiro)
 
-> A partir das primeiras 25 instâncias criadas com o primeiro token, você precisará solicitar em seu grupo o novo token definitivo, para conseguir criar mais instâncias, até o infinito. ;)
+> A partir das primeiras 10 instâncias criadas com o primeiro token, você pode solicitar ao nosso suporte, o novo token definitivo de parceiro, para conseguir criar mais instâncias, até o infinito. ;)
 
 ---
 
