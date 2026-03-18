@@ -1,13 +1,13 @@
 ---
-id: get-products
-title: Pegar Produtos
+id: get-products-v2
+title: Pegar Produtos V2
 ---
 
 ## Método
 
 #### /catalogs
 
-`GET` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/catalogs
+`POST` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/catalogs
 
 ### Header
 
@@ -20,20 +20,13 @@ title: Pegar Produtos
 
 Nesse método você será capaz de pegar os produtos de um catálogo do whatsapp Business
 
-## Atributos
+## Request Body
 
-### Opcional
-
-| Atributos   |  Tipo   | Descrição                                    |
-| :---------- | :-----: | :------------------------------------------- |
-| nextCursor  | string  | Token utilizado para paginação dos registros |
-
-:::tip 414 URI Too Large
-
-Em alguns casos o envio do nextCursor pode causar um erro 414 "URI Too Large". Para resolver esse problema implementamos uma V2 para essa rota da API que aceita requisições do tipo POST para que você possa enviar o nextCursor no corpo da requisição.
-Para saber como utilizar acesse a documentação da rota [Get Products V2](/business/get-products-v2)
-
-:::
+```json
+{
+  "nextCursor": "eyJwbHVnaW5fbmFtZSI6IldIQVRTQVBQX0NBVEFMT0ciLCJxdWVy..."
+}
+```
 
 ## Response
 

@@ -1,13 +1,13 @@
 ---
-id: get-products
-title: Get products 
+id: get-products-v2
+title: Get products V2
 ---
 
 ## Method
 
 #### /catalogs
 
-`GET` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/catalogs
+`POST` https://api.z-api.io/instances/{{instanceId}}/token/{{instanceToken}}/catalogs
 
 ### Header
 
@@ -19,22 +19,15 @@ title: Get products
 
 ## Concept
 
-With this method you will be able to get the products from a WhatsApp Business catalog 
+With this method you will be able to get the products from a WhatsApp Business catalog
 
-## Attributes
+## Request Body
 
-### Optional
-
-| Attributes   |  Type   | Description                                    |
-| :---------- | :-----: | :------------------------------------------- |
-| nextCursor  | string  | Token used for pagination of records          |
-
-:::tip 414 URI Too Large
-
-In some cases, sending the nextCursor may cause a 414 "URI Too Large" error. To resolve this issue, we implemented a V2 for this API route that accepts POST requests so you can send the nextCursor in the request body.
-To learn how to use it, access the route documentation [Get Products V2](/business/get-products-v2)
-
-:::
+```json
+{
+  "nextCursor": "eyJwbHVnaW5fbmFtZSI6IldIQVRTQVBQX0NBVEFMT0ciLCJxdWVy..."
+}
+```
 
 ---
 
@@ -56,7 +49,7 @@ To learn how to use it, access the route documentation [Get Products V2](/busine
 | quantity     | boolean | Product quantity attribute                       |
 | images       | string  | Product image link                               |
 
-Example 
+Example
 
 ```json
 {

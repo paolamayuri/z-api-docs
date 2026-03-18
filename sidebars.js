@@ -230,6 +230,8 @@ module.exports = {
       'business/edit-product',
       'business/get-products',
       'business/get-products-phone',
+      'business/get-products-v2',
+      'business/get-products-phone-v2',
       'business/get-product-id',
       'business/delete-product',
       'business/tags',
