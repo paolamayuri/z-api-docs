@@ -1801,6 +1801,73 @@ The possible returns of the **on-message-received** webhook are registered below
   }
 }
 ```
+### Example of notification: Group invite link access restricted to administrators.
+
+```json
+{
+  "chatLid": null,
+  "isGroup": true,
+  "isNewsletter": false,
+  "instanceId": "3E987B16F401B0FF1B8DA2BF932F5DDF",
+  "messageId": "85932933",
+  "phone": "120363423529374305-group",
+  "connectedPhone": "5544935051180",
+  "fromMe": false,
+  "momment": 1773845888000,
+  "expiresAt": null,
+  "status": "RECEIVED",
+  "chatName": "Teste zapi",
+  "senderPhoto": null,
+  "senderName": "João Victor",
+  "photo": null,
+  "broadcast": false,
+  "participantPhone": "554497420056",
+  "participantLid": "277454937673921@lid",
+  "referenceMessageId": null,
+  "externalAdReply": null,
+  "forwarded": false,
+  "type": "ReceivedCallback",
+  "notification": "GROUP_MEMBER_LINK_PROPERTY_UPDATE",
+  "notificationParameters": [],
+  "callId": null,
+  "code": null,
+  "linkMode": "ADMIN_LINK"
+}
+```
+
+### Example of notification: Group invite link access to all members.
+
+```json
+{
+  "chatLid": null,
+  "isGroup": true,
+  "isNewsletter": false,
+  "instanceId": "3E987B16F401B0FF1B8DA2BF932F5DDF",
+  "messageId": "2944380975",
+  "phone": "120363423529374305-group",
+  "connectedPhone": "5544935051180",
+  "fromMe": false,
+  "momment": 1773846027000,
+  "expiresAt": null,
+  "status": "RECEIVED",
+  "chatName": "Teste zapi",
+  "senderPhoto": null,
+  "senderName": "João Victor",
+  "photo": null,
+  "broadcast": false,
+  "participantPhone": "554497420056",
+  "participantLid": "277454937673921@lid",
+  "referenceMessageId": null,
+  "externalAdReply": null,
+  "forwarded": false,
+  "type": "ReceivedCallback",
+  "notification": "GROUP_MEMBER_LINK_PROPERTY_UPDATE",
+  "notificationParameters": [],
+  "callId": null,
+  "code": null,
+  "linkMode": "ALL_MEMBER_LINK"
+}
+```
 
 ### 405
 
