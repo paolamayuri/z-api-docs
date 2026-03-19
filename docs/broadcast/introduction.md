@@ -9,9 +9,9 @@ Devido a esse recurso **não estar disponível no WhatsApp Web**, a **Z-API atua
 
 ## Lista de transmissão
 
-Como já dito anteriomente para o WhatsApp tudo é um chat e no caso da lista de transmissão não é diferente, assim como no caso dos grupos você pode pegar facilmente suas listas de trasmissões através do método get/chats, as listas de transmissão vem com uma ID/Fone concacteando com a palavra "-broadcast" que ficaria algo parecido com "1624901640-broadcast".
+Como já mencionado anteriormente, para o WhatsApp tudo é tratado como um chat, e com as listas de transmissão não é diferente. Assim como nos grupos, é possível identificar suas listas de transmissão através do método **get /chats**.
 
-Você pode utilizar todos os métodos da sessão mensagens para enviar texto e arquivos para sua lista de transmissão, passando o ID/Fone da lista de transmissão.
+As listas de transmissão possuem um identificador (ID/Fone) com o sufixo -broadcast, como por exemplo: **1624901640-broadcast**.
 
-Diferente dos grupos todas interações e repostas das mensagens enviadas por uma lista de transmissão geram interações individuais, ou seja, caso o destinatário se manifeste você poderá interagir com o mesmo individualmente.
+Além disso, diferente dos grupos, as interações originadas de listas de transmissão ocorrem de forma individual. Ou seja, quando um destinatário responde a uma mensagem enviada por lista de transmissão, essa resposta será recebida como uma conversa individual, permitindo interação direta com o contato.
 

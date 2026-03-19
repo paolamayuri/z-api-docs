@@ -10,8 +10,8 @@ Since this feature is **not available on WhatsApp Web**, **Z-API currently does 
 
 ## Transmission list 
 
-As I said before, for WhatsApp everything is a chat and in the case of the broadcast list it is no different, just like in the case of groups you can easily get your broadcast lists through the get/chats method, the broadcast lists come with an ID/Phone concatenating with the word "-broadcast" which would look something like "1624901640-broadcast".
+As mentioned earlier, WhatsApp treats everything as a chat, and broadcast lists are no different. Just like groups, you can identify your broadcast lists using the **get /chats** method.
 
-You can use all methods of the messaging session to send text and files to your broadcast list by passing the broadcast list ID/Phone.
+Broadcast lists have an identifier (ID/Phone) with the suffix -broadcast, for example: **1624901640-broadcast**.
 
-Unlike groups, all interactions and responses to messages sent by a broadcast list generate individual interactions, that is, if the recipient manifests himself, you can interact with him individually.
+Furthermore, unlike groups, interactions originating from broadcast lists occur individually. That is, when a recipient replies to a message sent via a broadcast list, this reply will be received as an individual conversation, allowing direct interaction with the contact.
