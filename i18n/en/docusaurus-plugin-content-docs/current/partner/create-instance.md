@@ -42,14 +42,21 @@ If you do not subscribe within 2 days, our devops will automatically delete the 
 
 | Attributes| Type | Description |
 | :-- | :-: | :-- |
-| sessionName | string | Attribute to change session name in whatsapp (on connected devices) |
-| deliveryCallbackUrl | string | Delivered Messages Webhook EndPoint - delivery |
-| receivedCallbackUrl | string | Incoming Messages Webhook EndPoint - receive |
-| disconnectedCallbackUrl | string | Webhook EndPoint disconnected or lost communication - disconnected |
-| connectedCallbackUrl | string | Connection webhook endpoint - connected |
-| messageStatusCallbackUrl | string | Status webhook endpoint |
-| isDevice       | boolean | Defines wether the instance will be mobile or web |
-| businessDevice | boolean | Choose between business or normal whatsapp version |
+| sessionName                    | string  | Attribute to change the session name on WhatsApp (on connected devices) |
+| deliveryCallbackUrl            | string  | Webhook endpoint for delivered messages - delivery |
+| receivedCallbackUrl            | string  | Webhook endpoint for received messages - receive |
+| receivedAndDeliveryCallbackUrl | string  | Webhook endpoint for received and sent messages - receive |
+| presenceChatCallbackUrl        | string  | Webhook endpoint for chat status updates - presenceChat |
+| disconnectedCallbackUrl        | string  | Webhook endpoint for disconnection or communication loss - disconnected |
+| connectedCallbackUrl           | string  | Webhook endpoint for connection events - connected |
+| messageStatusCallbackUrl       | string  | Webhook endpoint for message status updates - messageStatus |
+| callRejectAuto                 | boolean | Automatically reject incoming calls - "true" or "false" |
+| callRejectMessage              | string  | Message sent after automatically rejecting a call |
+| autoReadMessage                | boolean | Automatically mark messages as read - "true" or "false" |
+| autoReadStatus                 | boolean | Automatically mark status as read - "true" or "false" |
+| isDevice                       | boolean | Defines whether the instance is mobile or web; if "true", it will be mobile |
+| businessDevice                 | boolean | Choose between WhatsApp Business or regular WhatsApp |
+| disableEnqueueWhenDisconnected | boolean | Enable/disable message queueing when creating the instance |
 
 ---
 
@@ -63,15 +70,22 @@ If you do not subscribe within 2 days, our devops will automatically delete the 
 
 ```json
 {
-  "name": "Instancia Z-API - 9292812",
-  "sessionName": "Tests tests",
-  "deliveryCallbackUrl": "https://meuwebhook.com.br/delivery",
-  "receivedCallbackUrl": "https://meuwebhook.com.br/receive",
-  "disconnectedCallbackUrl": "https://meuwebhook.com.br/disconnected",
-  "connectedCallbackUrl": "https://meuwebhook.com.br/connected",
-  "messageStatusCallbackUrl": "https://meuwebhook.com.br/status",
-  "isDevice": false,
-  "businessDevice": true
+    "name": "Instancia Z-API - 9292812",
+    "sessionName": "Testes testes",
+    "deliveryCallbackUrl": "https://mywebhook.com/delivery",
+    "receivedCallbackUrl": "https://mywebhook.com/receive",
+    "receivedAndDeliveryCallbackUrl": "https://mywebhook.com/receivedanddelivery",
+    "disconnectedCallbackUrl": "https://mywebhook.com/disconnected",
+    "connectedCallbackUrl": "https://mywebhook.com/receive",
+    "presenceChatCallbackUrl": "https://mywebhook.com/presencechat",
+    "messageStatusCallbackUrl": "https://mywebhook.com/status",
+    "callRejectAuto": false,
+    "callRejectMessage": "Test message for rejected calls",
+    "autoReadMessage": false,
+    "autoReadStatus": false,
+    "isDevice": false,
+    "businessDevice": false,
+    "disableEnqueueWhenDisconnected": true
 }
 ```
 

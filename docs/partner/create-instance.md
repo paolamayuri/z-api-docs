@@ -41,20 +41,23 @@ Caso você não realize a assinatura em até 2 dias nosso devops vai automaticam
 
 ### Opcionais
 
-| Atributos               |  Tipo  | Descrição                      |
-| :--------               | :----: | :----------------------------- |
-| sessionName             | string | Atributo para alterar o nome da sessão no whatsapp (em aparelhos conectados) |
-| deliveryCallbackUrl     | string | EndPoint do webhook de mensagens entregues - delivery |
-| receivedCallbackUrl     | string | EndPoint do webhook de mensagens recebidas - receive |
-| receivedAndDeliveryCallbackUrl | string | EndPoint do webhook de mensagens recebidas e enviadas por mim - receive |
-| disconnectedCallbackUrl | string | EndPoint do webhook de desconexão ou perca de comunicação - disconnected |
-| connectedCallbackUrl    | string | EndPoint do webhook de conexão - connected |
-| messageStatusCallbackUrl| string | EndPoint do webhook de Status |
-| callRejectAuto          | boolean | true ou false - Rejeitar chamadas automático |
-| callRejectMessage       | string  | Mensagem após rejeitar uma chamada automáticamente|
-| autoReadMessage         | boolean | true ou false - Leitura automática |
-| isDevice       | boolean | Define se a instância será mobile ou web |
-| businessDevice | boolean | Escolha entre a versão empresarial ou normal do WhatsApp |
+| Atributos                       |  Tipo  | Descrição                      |
+| :--------                       | :----: | :----------------------------- |
+| sessionName                     | string | Atributo para alterar o nome da sessão no whatsapp (em aparelhos conectados) |
+| deliveryCallbackUrl             | string | EndPoint do webhook de mensagens entregues - delivery |
+| receivedCallbackUrl             | string | EndPoint do webhook de mensagens recebidas - receive |
+| receivedAndDeliveryCallbackUrl  | string | EndPoint do webhook de mensagens recebidas e enviadas por mim - receive |
+| presenceChatCallbackUrl         | string | EndPoint do webhook de status do chat - presenceChat |
+| disconnectedCallbackUrl         | string | EndPoint do webhook de desconexão ou perca de comunicação - disconnected |
+| connectedCallbackUrl            | string | EndPoint do webhook de conexão - connected |
+| messageStatusCallbackUrl        | string | EndPoint do webhook de status da mensagem - messageStatus |
+| callRejectAuto                  | boolean | Rejeitar chamadas automaticamente - "true" ou "false" |
+| callRejectMessage               | string  | Mensagem após rejeitar uma chamada automaticamente |
+| autoReadMessage                 | boolean | Leitura automática das mensagens - "true" ou "false" |
+| autoReadStatus                  | boolean | Leitura automática dos status - "true" ou "false" |
+| isDevice                        | boolean | Define se a instância será mobile ou web, se "true", a instância será mobile |
+| businessDevice                  | boolean | Escolha entre a versão empresarial ou normal do WhatsApp |
+| disableEnqueueWhenDisconnected  | boolean | Habilita/desabilita enfileiramento de mensagem na hora de criar a instância |
 
 ---
 
@@ -68,15 +71,22 @@ Caso você não realize a assinatura em até 2 dias nosso devops vai automaticam
 
 ```json
 {
-  "name": "Instancia Z-API - 9292812",
-  "sessionName": "Testes testes",
-  "deliveryCallbackUrl": "https://meuwebhook.com.br/delivery",
-  "receivedCallbackUrl": "https://meuwebhook.com.br/receive",
-  "disconnectedCallbackUrl": "https://meuwebhook.com.br/disconnected",
-  "connectedCallbackUrl": "https://meuwebhook.com.br/connected",
-  "messageStatusCallbackUrl": "https://meuwebhook.com.br/status",
-  "isDevice": false,
-  "businessDevice": true
+    "name": "Instancia Z-API - 9292812",
+    "sessionName": "Testes testes",
+    "deliveryCallbackUrl": "https://meuwebhook.com.br/delivery",
+    "receivedCallbackUrl": "https://meuwebhook.com.br/receive",
+    "receivedAndDeliveryCallbackUrl": "https://meuwebhook.com.br/receivedanddelivery",
+    "disconnectedCallbackUrl": "https://meuwebhook.com.br/disconnected",
+    "connectedCallbackUrl": "https://meuwebhook.com.br/receive",
+    "presenceChatCallbackUrl": "https://meuwebhook.com.br/presencechat",
+    "messageStatusCallbackUrl": "https://meuwebhook.com.br/status",
+    "callRejectAuto": false,
+    "callRejectMessage": "Teste de mensagem ao rejeitar",
+    "autoReadMessage": false,
+    "autoReadStatus": false,
+    "isDevice": false,
+    "businessDevice": false,
+    "disableEnqueueWhenDisconnected": true
 }
 ```
 
