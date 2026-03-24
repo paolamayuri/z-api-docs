@@ -93,9 +93,10 @@ Os possíveis retornos do webhook **on-message-received** estão cadastrado logo
 | type                        | string    | Tipo do evento da instância, nesse caso será "ReceivedCallBack".                                    |
 | photo                       | string    | Url da foto do usuário que enviou a mensagem.                                                       |
 | text.message                | string    | Texto da mensagem.                                                                                  |
-| image.caption               | string    | Leganda da foto.                                                                                    |
+| image.caption               | string    | Legenda da foto.                                                                                    |
 | image.imageUrl              | string    | Url da foto.                                                                                        |
 | image.thumbnailUrl          | string    | Url da thumbnail da foto.                                                                           |
+| image.downloadError         | string    | Mensagem de erro ao falhar no download da imagem.                                                   |
 | image.mimeType              | string    | MimeType da imagem.                                                                                 |
 | audio.mimeType              | string    | MimeType do áudio.                                                                                  |
 | audio.audioUrl              | string    | Url do áudio.                                                                                       |
@@ -653,6 +654,7 @@ Os possíveis retornos do webhook **on-message-received** estão cadastrado logo
     "mimeType": "image/jpeg",
     "imageUrl": "https://",
     "thumbnailUrl": "https://",
+    "downloadError": null,
     "caption": "",
     "thumbnailUrl": "https://",
     "width": 600,
