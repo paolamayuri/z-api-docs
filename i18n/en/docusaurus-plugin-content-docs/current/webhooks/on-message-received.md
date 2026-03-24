@@ -94,6 +94,7 @@ The possible returns of the **on-message-received** webhook are registered below
 | image.caption                | string    | Photo caption                                                                                        |
 | image.imageUrl               | string    | URL of the photo                                                                                      |
 | image.thumbnailUrl           | string    | URL of the photo thumbnail                                                                            |
+| image.downloadError          | string    | Error message when the image download fails                                                           |
 | image.mimeType               | string    | MimeType of the image                                                                                 |
 | audio.mimeType               | string    | MimeType of the audio                                                                                 |
 | audio.audioUrl               | string    | URL of the audio                                                                                      |
@@ -316,6 +317,7 @@ The possible returns of the **on-message-received** webhook are registered below
     "mimeType": "image/jpeg",
     "imageUrl": "https://",
     "thumbnailUrl": "https://",
+    "downloadError": null,
     "caption": "",
     "thumbnailUrl": "https://",
     "width": 600,
