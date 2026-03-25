@@ -27,16 +27,9 @@ Método utilizado para assinar uma instância.
 
 ### Opcionais
 
-| Atributos     | Tipo     | Descrição                                                           |
-| :--------     | :-----:  | :----------------------------------------------------------------   |
-|  withCalls    | boolean  | Define se a instância será criada com suporte a chamadas (ligações) |
-
-:::caution Atenção
-
-O atributo **withCalls** é opcional. Caso não seja enviado, a requisição continuará funcionando normalmente com o comportamento padrão.
-Este recurso está disponível apenas para contas que possuem a funcionalidade de chamadas habilitada.
-
-:::
+| Atributos | Tipo | Descrição |
+| :-------- | :--: | :-------- |
+|           |      |           |
 
 ---
 
@@ -47,14 +40,6 @@ Este recurso está disponível apenas para contas que possuem a funcionalidade d
 `POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/{SEU_TOKEN}/integrator/on-demand/subscription
 
 ---
-
-## Request Body
-
-```json
-{
-  "withCalls": true
-}
-```
 
 ## Response
 

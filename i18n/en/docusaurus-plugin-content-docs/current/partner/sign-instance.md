@@ -33,14 +33,9 @@ You will only be able to subscribe to instances created via API with this method
 
 ### Optionals
 
-| Attributes | Type    | Description                                                                 |
-| :--------- | :-----: | :-------------------------------------------------------------------------- |
-| withCalls  | boolean | Defines whether the instance will be created with voice call support        |
-
-:::caution Warning
-
-The **withCalls** attribute is optional. If not provided, the request will continue to work with the default behavior.
-This feature is only available for accounts with calls functionality enabled.
+| Attributes| Type | Description|
+| :-------- | :--: | :-------- |
+|           |      |           |
 
 ---
 
@@ -51,14 +46,6 @@ This feature is only available for accounts with calls functionality enabled.
 `POST` https://api.z-api.io/instances/SUA_INSTANCIA/token/{SEU_TOKEN}/integrator/on-demand/subscription
 
 ---
-
-## Request Body
-
-```json
-{
-  "withCalls": true
-}
-```
 
 ## Response
 
