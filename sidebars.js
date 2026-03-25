@@ -277,6 +277,7 @@ module.exports = {
       'partner/sign-instance',
       'partner/unsubscribe-instance',
       'partner/list-instances',
+      'partner/update-instance',
     ],
 
     Integradors: ['integrators/find-my-pack'],
