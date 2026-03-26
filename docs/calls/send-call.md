@@ -35,6 +35,13 @@ Neste método você enviar uma ligação a um número que possua whatsapp, seja 
 | Atributos | Tipo | Descrição |
 | :-- | :-: | :-- |
 | callDuration | number | Aqui você define por quanto tempo você quer que a ligação dure, por padrão a ligação terá duração de 5 segundos, mas você pode aumentar até 15 segundos |
+| callAudioUrl | string | Link do áudio (.mp3) |
+
+:::caution Atenção
+
+O atributo **callAudioUrl** está disponível apenas para contas que possuem a funcionalidade de chamadas habilitada.
+
+:::
 
 ---
 
