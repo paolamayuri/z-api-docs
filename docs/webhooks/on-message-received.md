@@ -2047,6 +2047,43 @@ Os possíveis retornos do webhook **on-message-received** estão cadastrado logo
   }
 }
 ```
+### Exemplo de retorno quando a mensagem é enviada para uma lista de transmissão
+
+```json
+{
+  "isStatusReply": false,
+  "chatLid": null,
+  "connectedPhone": "554499999999",
+  "waitingMessage": false,
+  "isEdit": false,
+  "isGroup": false,
+  "isNewsletter": false,
+  "instanceId": "3C67AB641C8AA0412F6A2242B4E23AC7",
+  "messageId": "702CC5F7E0A6BF4421",
+  "phone": "1774895799-broadcast",
+  "fromMe": true,
+  "momment": 1774895725000,
+  "status": "RECEIVED",
+  "chatName": "",
+  "senderPhoto": null,
+  "senderName": "5544999999999",
+  "photo": null,
+  "broadcast": true,
+  "participantPhone": null,
+  "participantLid": "99999999999@lid",
+  "messageExpirationSeconds": 0,
+  "forwarded": false,
+  "type": "ReceivedCallback",
+  "fromApi": false,
+  "broadcastRecipients": [
+    "126104585119999",
+    "138955211189999"
+  ],
+  "text": {
+    "message": "Teste de mensagem de lista de transmissão"
+  }
+}
+```
 
 ### Exemplo de notificação: Acesso ao link de convite limitado a administradores.
 
