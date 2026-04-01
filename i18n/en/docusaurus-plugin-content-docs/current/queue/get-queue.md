@@ -1,6 +1,6 @@
 ---
 id: get-queue
-title: Queue 
+title: Queue (Old)
 ---
 
 ## Method
@@ -23,21 +23,27 @@ This method is responsible for returning all messages that are in your queue wai
 
 ---
 
+:::caution Legacy endpoint
+
+This endpoint will no longer receive updates, but will continue to function normally to maintain compatibility with existing integrations. The **page** parameter no longer has any effect. The **pageSize** parameter continues to work as expected. The **/queue/count** endpoint also remains available. For new implementations, we recommend using the [**POST /queue**](./post-queue) endpoint, which uses cursor-based pagination with **pagingState**.
+
+:::
+
 ## Attributes 
 
 ### Required 
 
 | Attributes | Type    | Description |
 | :--------  | :---:   | :-------- |
-| page       | integer | Used for pagination, you need to inform here the message page you want to retrieve |
+| page       | integer | **No longer has any effect** |
 | pageSize   | integer | Specify the size of the message return per page |
 
 
 ### Optionals 
 
-| Attributes | Type | Description |
-| :-------- | :--: | :-------- |
-|           |      |           |
+| Attributes | Type   | Description |
+| :--------  | :--:   | :--------   |
+| count      | string | Used to return the number of messages in the queue |
 
 ---
 

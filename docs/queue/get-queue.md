@@ -1,6 +1,6 @@
 ---
 id: get-queue
-title: Fila
+title: Fila (Antiga)
 ---
 
 ## Método
@@ -22,13 +22,20 @@ Este método é responsável por retornar todas mensagens que estão em sua fila
 
 ---
 
+:::caution Endpoint legado
+
+Este endpoint não receberá mais atualizações, mas continuará funcionando normalmente para manter compatibilidade com integrações existentes. O parâmetro **page** não possui mais efeito. O parâmetro **pageSize** continua funcionando normalmente. O endpoint **/queue/count** também permanece disponível.
+Para novas implementações, recomendamos utilizar o endpoint [**POST /queue**](./post-queue), que utiliza paginação baseada em cursor com **pagingState**.
+
+:::
+
 ## Atributos
 
 ### Obrigatórios
 
 | Atributos | Tipo    | Descrição |
 | :-------- | :---:   | :-------- |
-| page      | integer | Utilizado para paginação você de informar aqui a pagina de mensagens que quer buscar |
+| page      | integer | **Não possui mais efeito** |
 | pageSize  | integer | Especifica o tamanho do retorno de mensagens por pagina |
 
 ### Opcionais
