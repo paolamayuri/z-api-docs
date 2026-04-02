@@ -9,6 +9,12 @@ title: Generate Call Token
 
 `GET` https://api.z-api.io/instances/{id}/token/{token}/call-token
 
+### Header
+
+|      Key       |            Value            |
+| :------------: |     :-----------------:     |
+|  Client-Token  | **[ACCOUNT SECURITY TOKEN](../security/client-token)** |
+
 ---
 
 ## Overview
