@@ -22,7 +22,7 @@ title: Gerar token SIP
 Método utilizado para gerar as credenciais SIP da instância.
 
 Essas credenciais permitem a integração com serviços de telefonia via protocolo SIP, possibilitando a realização e recebimento de chamadas.
-Caso já exista um token SIP ativo, este método poderá gerar um novo ou reutilizar o existente, dependendo da configuração.
+Caso já exista um token SIP ativo, este método realizará a geração de um novo e substituirá o antigo.
 
 ---
 
