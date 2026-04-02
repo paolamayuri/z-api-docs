@@ -9,6 +9,12 @@ title: Gerar token para chamadas
 
 `GET` https://api.z-api.io/instances/{id}/token/{token}/call-token
 
+### Header
+
+|      Key       |            Value            |
+| :------------: |     :-----------------:     |
+|  Client-Token  | **[TOKEN DE SEGURANÇA DA CONTA](../security/client-token)** |
+
 ---
 
 ## Conceituação

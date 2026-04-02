@@ -151,6 +151,8 @@ module.exports = {
       'calls/introduction',
       'calls/send-call',
       'calls/call-token',
+      'calls/sip-token',
+      'calls/sip-info',
     ],
     Groups: [
       'group/introduction',
