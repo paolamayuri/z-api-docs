@@ -22,7 +22,7 @@ title: Generate SIP Token
 This method is used to generate SIP credentials for the instance.
 
 These credentials allow integration with telephony services via the SIP protocol, enabling making and receiving calls.  
-If an active SIP token already exists, this method may generate a new one or reuse the existing token, depending on the configuration.
+If an active SIP token already exists, this method will generate a new one and replace the old one.
 
 ---
 
