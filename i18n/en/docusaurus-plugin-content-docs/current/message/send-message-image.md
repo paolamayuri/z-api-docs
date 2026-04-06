@@ -44,10 +44,6 @@ Examples:
 
 WhatsApp limits the sizes of files and its politics constantly changes and because of that we always recommend that you verify directly on WhatsApp’s website.
 
-In this [link] you can find everything that you need to know about formatting and file sizing.
-
-[link]: https://developers.facebook.com/docs/whatsapp/api/media
-
 ![image](../../../../../img/Sendingimage.jpeg)
 
 ---

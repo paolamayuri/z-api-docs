@@ -25,10 +25,6 @@ Method responsible for sending GIFs to your chats through the API (The file to b
 
 WhatsApp limits the size of files, and its policy changes constantly. Therefore, we always recommend checking directly on WhatsApp's website for the most up-to-date information.
 
-In this [link], you will find everything you need to know about file formats and sizes.
-
-[link]: https://developers.facebook.com/docs/whatsapp/api/media
-
 ![image](../../../../../img/send-message-gif.jpeg)
 
 ---

@@ -17,9 +17,6 @@ title: Send documents
 ### Size and formats 
 
 WhatsApp limits the size of files, and its policy changes frequently. That's why we always recommend checking directly on the WhatsApp website for the latest information.
-In this [link], you'll find everything you need to know about file formats and sizes.
-
-[link]: https://developers.facebook.com/docs/whatsapp/api/media
 
 ### Header
 

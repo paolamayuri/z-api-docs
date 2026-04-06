@@ -31,10 +31,6 @@ By Base64: If you choose this option, you will need to have a method in your app
 
 WhatsApp limits the size of files, and its policy changes constantly. Therefore, we always recommend checking directly on WhatsApp's website for the most up-to-date information.
 
-In this [link], you will find everything you need to know about file formats and sizes.
-
-[link]: https://developers.facebook.com/docs/whatsapp/api/media
-
 ![image](../../../../../img/send-message-ptv.jpeg)
 ---
 
