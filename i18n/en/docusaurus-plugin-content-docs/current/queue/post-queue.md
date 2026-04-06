@@ -29,7 +29,7 @@ This method returns messages from the queue that are waiting to be processed.
 
 | Attributes   | Type    | Description |
 | :----------- | :--:    | :---------- |
-| pageSize     | integer | Number of messages returned per request. The default value is **20** and the maximum limit is **30** |
+| pageSize     | integer | Number of messages returned per request. The default value is **20** |
 | pagingState  | string  | Page cursor. If not provided, the first page will be returned |
 
 ---
@@ -117,7 +117,6 @@ This method returns messages from the queue that are waiting to be processed.
 
 - If `pagingState` is not provided, the first page will be returned automatically
 - If `pageSize` is not provided, the default value of **20 messages** will be used
-- The maximum limit per request is **30 messages**
 - Use the returned `pagingState` to fetch the next pages
 - When `hasMore` is `false`, there are no more messages available
 

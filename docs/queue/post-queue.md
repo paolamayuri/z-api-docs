@@ -29,7 +29,7 @@ Este método é responsável por retornar mensagens da fila aguardando processam
 
 | Atributos   | Tipo    | Descrição |
 | :---------- | :--:    | :-------- |
-| pageSize    | integer | Quantidade de mensagens retornadas por requisição. O valor padrão é **20** e o limite máximo é **30** |
+| pageSize    | integer | Quantidade de mensagens retornadas por requisição. O valor padrão é **20** |
 | pagingState | string  | Cursor da página. Quando não informado, retorna a primeira página |
 
 ---
@@ -117,7 +117,6 @@ Este método é responsável por retornar mensagens da fila aguardando processam
 
 - Caso não envie `pagingState`, a primeira página será retornada automaticamente
 - Caso não informe `pageSize`, o valor padrão de **20 mensagens** será utilizado
-- O limite máximo por requisição é de **30 mensagens**
 - Utilize o `pagingState` retornado para buscar as próximas páginas
 - Quando `hasMore` for `false`, não existem mais mensagens disponíveis
 

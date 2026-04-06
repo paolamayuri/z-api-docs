@@ -1,6 +1,6 @@
 ---
 id: get-queue
-title: Queue (Legacy)
+title: Queue (Deprecated)
 ---
 
 :::danger Deprecated endpoint
@@ -45,13 +45,6 @@ This method returns all messages currently in the queue waiting to be processed.
 | Attributes | Type   | Description |
 | :--------- | :--:   | :---------- |
 | count      | string | Used to return the number of messages in the queue |
-
----
-
-## Pagination Rules
-
-- The maximum number of messages per page is **30**
-- The default value (when not specified) is **20**
 
 ---
 

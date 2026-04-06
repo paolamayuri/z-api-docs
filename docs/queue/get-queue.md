@@ -1,6 +1,6 @@
 ---
 id: get-queue
-title: Fila (Antiga)
+title: Fila (Depreciada)
 ---
 
 :::danger Endpoint obsoleto e em descontinuação
@@ -44,13 +44,6 @@ Este método é responsável por retornar todas mensagens que estão em sua fila
 | Atributos | Tipo   | Descrição |
 | :-------- | :--:   | :-------- |
 | count     | string | Atributo utilizado para retornar o número de mensagens na fila |
-
----
-
-## Regras de Paginação
-
-- O limite máximo de mensagens por página é **30**
-- O valor padrão (quando não informado) é **20**
 
 ---
 
